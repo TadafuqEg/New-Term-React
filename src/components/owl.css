@@ -1,0 +1,44 @@
+/* src/components/MyCarousel.css */
+.owl{
+   padding: 50px 0;
+   width: 93%;
+   margin: auto;
+}
+.owl-h{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--navbar-text);
+    margin-top: 20px;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #869791;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 50px 0;
+  }
+  
+  .owl-theme .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: #869791;
+    border-radius: 50%;
+    display:none !important;
+  }
+  .owl-img{
+    width: auto;
+    height: 200px;
+    transform: scale(.8);
+  }
+  @media(max-width:767px){
+    .slick-list{
+        width: 95%;
+        margin-left: 3%;
+    }
+  }
+  

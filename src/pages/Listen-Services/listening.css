@@ -1,0 +1,899 @@
+.why-listening {
+    width: 100%;
+    height: auto;
+    color: var(--navbar-text);
+}
+
+.listening-content {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../assets/imgs/bac-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-2 {
+    padding: 50px 0 0 0;
+}
+
+.why-2 .listening-content {
+    height: auto;
+}
+
+.why-listening h5 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--color);
+}
+
+.why-listening p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: var(--color);
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* listening services */
+.monitoring {
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+    background-image: url(../../assets/imgs/all\ gray.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--navbar-text);
+}
+
+.competitive {
+    background-image: none;
+}
+
+.monitoring h5 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    text-align: center;
+}
+
+.monitoring p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px 5%;
+}
+
+.monitoring-content {
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.monitoring-card {
+    width: 48%;
+    height: 120px;
+    padding: 40px 20px;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(94, 94, 94, .5));
+    border: 1px solid #fff;
+    border-radius: 13px;
+    color: #fff;
+    text-align: start;
+}
+
+.monitoring-card h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.dark .monitoring-card {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .3));
+    border: none;
+    
+}
+
+.self-services {
+    width: 100%;
+    height: auto;
+    background: var(--background2-color);
+    padding: 70px 0;
+    text-align: center;
+    color: var(--navbar-text);
+}
+
+.self-services h3 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: var(--color);
+}
+
+.self-services p {
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color);
+    padding-bottom: 30px;
+}
+
+.self-services a button {
+    width: max-content;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 93, 60, 1);
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.dark .self-services a button:hover {
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.self-services a button:hover {
+    background: transparent;
+    border: 1px solid #ED4F31;
+    color: #FF5C3D;
+}
+
+.rl-cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.rl-cards .monitoring-card {
+    width: 50%;
+    height: 120px;
+}
+
+.rl-cards .monitoring-card p {
+    text-align: start;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.right {
+    margin-left: 51%;
+}
+
+.hh {
+    width: 70%;
+    margin: auto;
+}
+
+.hh-2 {
+    width: 98%;
+}
+
+
+
+/* responsive soultion style */
+
+.amp-h,
+.amp-h2 {
+    width: 70%;
+    margin: auto;
+}
+
+.amp-p {
+    width: 70% !important;
+    margin: auto;
+}
+
+/* success stories style */
+.success-stories {
+    color: var(--navbar-text);
+}
+
+.markt {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.monitoring-card {
+    text-decoration: none;
+}
+
+.monitoring-card h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* market page */
+
+/* markets pages */
+.markets {
+    width: 100%;
+    height: 70vh;
+    padding-top: 100px;
+    color: var(--navbar-text);
+    overflow-x: hidden !important;
+}
+
+.markets-content {
+    padding-top: 30px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.markets-items {
+    width: 100%;
+    border: 1px solid var(--color);
+    padding: 10px 0;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+}
+
+.markets-items ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.markets-items ul li {
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.markets-items ul li a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+.markets-items ul li a:hover {
+    color: #F05E41;
+}
+
+.mark-active a {
+    color: #F05E41 !important;
+}
+
+.mark-h5 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.markets-content p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 65%;
+    margin: auto;
+    padding: 20px 0 30px 0;
+    line-height: 25px;
+}
+
+.abs {
+    position: absolute;
+    width: 102%;
+    height: 65%;
+    top: 30%;
+    left: -2%;
+    z-index: -1;
+    overflow-x: hidden !important;
+    background-image: url(../../assets/imgs/services/all.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.constt {
+    font-weight: 900;
+}
+
+.crypt {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    background: #F05E41;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.crypt-2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 60px;
+    background: #F05E41;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.markets-content .crypt:hover {
+    background: transparent;
+    border: 1px solid #F05E41;
+    color: #F05E41;
+}
+
+.crypt-2:hover {
+    background: transparent;
+    border: 1px solid #F05E41;
+    color: #F05E41;
+}
+
+.mark-content {
+    width: 100%;
+    height: auto;
+    background-image: url(../../assets/imgs/bac-8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.markets-cards {
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid #262626;
+    margin-top: 50px;
+    padding: 150px 0 40px 0;
+
+}
+
+.mark-card {
+    height: auto;
+    width: 55%;
+    background: linear-gradient(rgba(256, 256, 256, .2), rgba(0, 0, 0, .1));
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.dark .mark-card {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
+    border-radius: 12px;
+    border:none;
+}
+
+.mark-card h5 {
+    margin-bottom: 10px;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.markets-items ul {
+    border: 1px solid var(--navbar-text);
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.mark-card ul li {
+    margin-left: 20px;
+    width: 95%;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.c-l {
+    margin-left: 45%;
+}
+
+/* .act{
+    backdrop-filter: blur(5px);
+} */
+
+.act a {
+    color: #F05E41 !important;
+
+    font-size: 18px !important;
+}
+
+.market-flex {
+    display: none;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.owl-carousel {
+    width: 70%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 50px;
+    font-size: 50px !important;
+    font-weight: 800 !important;
+    font-weight: 700;
+    color: #F05E41 !important;
+    top: -5px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 50px;
+    font-size: 50px !important;
+    font-weight: 800 !important;
+    font-weight: 700;
+
+    color: #F05E41 !important;
+    top: -5px;
+}
+
+.owl-carousel .dev {
+    margin-top: 13px !important;
+    font-size: 15.5px;
+    padding-top: 4px;
+    font-weight: 700;
+    width: 100%;
+
+}
+
+.owl-carousel .dev a {
+    color: #000;
+}
+
+.flex h5 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.industry-ul {
+    width: max-content;
+    margin: auto;
+    padding: 10px 40px !important;
+}
+
+/* hootalk style */
+.reputation-content .sec-1 {
+    height: 80vh;
+}
+
+.hootalk .sec-1 {
+    height: 85vh;
+    padding-top: 70px;
+    gap: 10px;
+}
+
+
+.hoo-content {
+    width: 100%;
+    height: auto;
+}
+
+.hoo-cards {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px 0 40px 0;
+    background-image: url(../../assets/imgs/bac-10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.hoo-card {
+    height: 100px;
+    width: 55%;
+    background: linear-gradient(rgba(256, 256, 256, .2), rgba(0, 0, 0, .1));
+    border: 1px solid #fff;
+    
+    margin-top: 50px;
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: start;
+}
+
+.dark .hoo-card {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
+    border:none;
+    border-radius: 12px;
+}
+
+.hoo-card h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hoo-card p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.hoo-p {
+    margin-top: 100px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ho-2 {
+    margin-left: 45%;
+}
+
+.hoo-cards a button {
+    font-size: 20px;
+    font-weight: 700;
+    height: 53px;
+    width: 26%;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #F05E41;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.mass-btn button {
+    width: 350px !important;
+}
+
+.hoo-cards a button:hover {
+    background: transparent;
+    border: 1px solid rgba(255, 93, 60, 1);
+    color: #FF5C3D;
+}
+
+.ho-img {
+    width: 300px;
+}
+.market-owl{
+    display: none;
+    width: 100%;
+}
+.marketowl-content{
+    width: 80%;
+    margin: auto;
+}
+.bold{
+    font-size: 16px !important; 
+    font-weight: 900 !important;
+}
+
+
+/* media query */
+@media(max-width:1450px) {
+    .markets-content {
+        width: 83%;
+    }
+    .markets {
+        width: 100%;
+        height: 85vh;
+    }
+}
+
+@media(max-width:1300px) {
+    .monitoring-content {
+        padding: 0px 5%;
+    }
+
+    .why-listening h5,
+    .monitoring h5 {
+        font-size: 40px;
+    }
+
+    .self-services h3 {
+        font-size: 40px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .monitoring-card h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .markets-content {
+        width: 85%;
+    }
+
+    .markets-items ul li {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .markets-items ul {
+        list-style: none;
+        display: flex;
+        gap: 14px;
+    }
+}
+
+@media(max-width:1100px) {
+    .reputation-content .sec-1 {
+        height: 65vh;
+    }
+
+    .why-listening h5,
+    .monitoring h5 {
+        font-size: 35px;
+    }
+
+    .self-services h3 {
+        font-size: 30px;
+    }
+
+    .monitoring-content {
+        padding: 0px 2.5%;
+    }
+
+    .monitoring-card {
+        width: 42%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .monitoring-card h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .markt {
+        font-size: 35px;
+    }
+
+    .monitoring-card h5 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .hootalk .sec-1 {
+        height: 100vh;
+        padding-top: 70px;
+        gap: 10px;
+    }
+
+    .hootalk .sec-1 h2 {
+        font-size: 30px;
+    }
+    .markets-content {
+        width: 84%;
+    }
+
+    .markets-items ul li {
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .markets-items ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+    .mark-h5 {
+        font-size: 40px;
+    }
+    .markets-content p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:990px) {
+    .hoo-cards {
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .hoo-card {
+        width: 65%;
+    }
+
+    .ho-2 {
+        margin-left: 35%;
+    }
+
+    .hoo-p {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .hoo-cards a button {
+        width: 40%;
+    }
+
+    .hootalk .sec-1 {
+        height: 65vh;
+    }
+
+    .hootalk .sec-1 h2 {
+        font-size: 25px;
+    }
+
+    .ho-img {
+        width: 250px;
+    }
+    .markets{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+    }
+    .markets-content{
+        display: none;
+    }
+    .market-owl{
+        display: block;
+    }
+    .markets-cards{
+        width: 85%;
+        padding: 60px 0 40px 0;
+    }
+    .mark-card {
+        height: auto;
+        width: 65%;
+    }
+    .c-l {
+        margin-left: 35%;
+    }
+}
+
+@media(max-width:767px) {
+
+    .why-listening h5,
+    .monitoring h5 {
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .power-house .power-content h5 {
+        width: 91%;
+        font-size: 18px;
+    }
+
+    .listening-content {
+        height: 250px;
+    }
+
+    .why-listening p,
+    .monitoring p {
+        font-size: 12px;
+        font-weight: 500;
+        width: 90%;
+    }
+
+    .monitoring-card {
+        width: 90%;
+    }
+
+    .self-services h3 {
+        font-size: 18px;
+    }
+
+    .self-services p {
+        width: 90%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .self-services a button {
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+
+    .rl-cards .monitoring-card {
+        width: 95%;
+        height: 120px;
+    }
+
+    .rl-cards .monitoring-card p {
+        text-align: start;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .right {
+        margin-left: 0%;
+    }
+
+    .amp-h {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .amp2 {
+        font-size: 20px !important;
+    }
+
+    .power-house .power-content {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .power-house .power-content h5,
+    .about-meet h5,
+    .about-partenrs h5 {
+        font-size: 18px;
+    }
+
+    .amp-p {
+        width: 85% !important;
+    }
+
+    .monitoring-card h4 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .ho-img {
+        width: 200px;
+    }
+
+    .hootalk .sec-1 h2 {
+        font-size: 18px;
+    }
+
+    .hoo-card {
+        width: 100%;
+        height: 110px;
+    }
+
+    .ho-2 {
+        margin-left: 0;
+    }
+
+    .hoo-cards a button {
+        width: 75%;
+    }
+
+    .hoo-card h5 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .crypt {
+        font-size: 18px;
+    }
+
+    
+
+}
