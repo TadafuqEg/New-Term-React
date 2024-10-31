@@ -105,7 +105,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item xx">
                     <span className={`nav-item ${isDropdownActive(['/hoo-talk', '/mass-analytics']) ? 'active' : ''}`} onClick={toggleDropdown3}>
-                        SPECIAL/MARKETING <TiArrowSortedDown className='arr' /></span>
+                    Special/Marketing Products <TiArrowSortedDown className='arr' /></span>
                     {/* <span>SPECIAL/MARKETING PRODUCTS <TiArrowSortedDown className='arr' /></span> */}
                     {isDropdownOpen3 && (
                         <ul className="dropdown-menu">

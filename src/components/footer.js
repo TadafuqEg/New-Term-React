@@ -57,8 +57,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-right f-r">
-                        <p>Phone: +20540845510</p>
-                        <p>Address:Oce 2210 Concord Tower, Dubai <br /> Media City, Dubai, UAE</p>
+                        <p>Phone: +971540845510</p>
+                        <p>Address: Office 2210 Concord Tower, Dubai <br /> Media City, Dubai, UAE</p>
                         <p><a className='m-a' href={`mailto:${email}?subject=${encodeURIComponent(subject)}}`}>info@term.ae</a></p>
                         <a href="/contact" className="footer-contact">Contact Us</a>
                     </div>
