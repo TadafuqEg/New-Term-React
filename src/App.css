@@ -1387,6 +1387,40 @@ select::-ms-expand {
 
 /* End Login Page Style */
 
+
+
+/* privacy-policy */
+.privacy{
+  color: var(--navbar-text);
+  width: 75%;
+  margin: auto;
+  padding-top: 150px;
+  text-align: start;
+  padding-bottom: 100px;
+}
+.privacy h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.privacy h5{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.privacy h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top:20px;
+}
+.privacy p{
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+  margin-top: 5px;
+  width: 90%;
+}
+
 /* Media Query */
 @media (max-width:1300px) {
 
@@ -1609,6 +1643,22 @@ select::-ms-expand {
 
   .contact-form {
     width: 90%;
+  }
+
+  .privacy{
+    width: 85%;
+  }
+  .privacy h2{
+    font-size: 25px;
+  }
+  .privacy h5{
+    font-size: 20px;
+  }
+  .privacy h3{
+    font-size: 18px;
+  }
+  .privacy p{
+    font-size: 14px;
   }
 }
 
@@ -2095,6 +2145,29 @@ select::-ms-expand {
 
   .log {
     height: 85vh;
+  }
+  .footer-content{
+    padding: 50px 3%;
+  }
+  .f-r p{
+    margin-bottom: 10px;
+  }
+
+  .privacy{
+    width: 85%;
+  }
+  .privacy h2{
+    font-size: 20px;
+  }
+  .privacy h5{
+    font-size: 15px;
+  }
+  .privacy h3{
+    font-size: 15px;
+  }
+  .privacy p{
+    font-size: 13px;
+    width: 93%;
   }
 
 }

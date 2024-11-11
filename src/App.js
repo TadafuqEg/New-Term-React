@@ -36,6 +36,9 @@ import Fashion from './pages/Success-Stories/Fashion';
 import HooTalk from './pages/Special-Marketing/HooTalk';
 import MassAnalytics from './pages/Special-Marketing/Mass';
 import ScrollToTop from './components/ScrollToTop';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import Cookies from './pages/Cookies';
 
 
 
@@ -79,6 +82,9 @@ const App = () => {
             <Route path="/fashion" element={<Fashion />} />
             <Route path="/hoo-talk" element={<HooTalk />} />
             <Route path="/mass-analytics" element={<MassAnalytics />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
+            <Route path="/terms & conditions" element={<Terms />} />
+            <Route path="/cookies" element={<Cookies />} />
 
           </Routes>
           <Footer />
