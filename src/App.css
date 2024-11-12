@@ -1957,8 +1957,11 @@ select::-ms-expand {
 
   .left-top .footer-imgs {
     justify-content: center;
+    padding:20px 0 10px 20px;
   }
-
+  .footer-left a {
+    margin-right: 10px;
+  }
   .left-bottom {
     padding-left: 20px;
   }
@@ -2171,3 +2174,9 @@ select::-ms-expand {
   }
 
 }
+
+
+
+
+
+ 

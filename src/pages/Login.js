@@ -50,7 +50,7 @@ const Login = () => {
             <div className='login'>
                 <div className='nav-plus'>
                     <div className='logo'>
-                        <Link to='/'>
+                        <Link to='https://dev-nextjs.term.ae'>
                             <img
                                 src={theme === 'light' ? lightLogo : darkLogo}
                                 alt="logo"

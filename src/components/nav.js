@@ -39,7 +39,7 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${theme}`}>
             <div className='logo'>
-                <a href='/'>
+                <a href='https://dev-nextjs.term.ae'>
                     <img
                         src={theme === 'light' ? lightLogo : darkLogo}
                         alt="logo"

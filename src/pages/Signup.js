@@ -70,7 +70,7 @@ const Signup = () => {
             <div className='login signup'>
                 <div className='nav-plus'>
                     <div className='logo'>
-                        <Link to='/'>
+                        <Link to='https://dev-nextjs.term.ae'>
                             <img
                                 src={theme === 'light' ? lightLogo : darkLogo}
                                 alt="logo"
